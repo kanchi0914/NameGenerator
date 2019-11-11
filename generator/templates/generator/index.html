@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{% load static %}
+
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">それっぽい名前ジェネレータ</a>
+</nav>
+
+<div class="col text-center mt-4">
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <select id="dropdown">
+                    <option value="value01">アメリカ</option>
+                    <option value="value02">イタリア</option>
+                    <option value="value03">ロシア</option>
+                </select>
+                <a>人っぽい名前を</a>
+                <button id="button1" type="button" class="btn btn-dark">生成</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <div id="result" class="text-center">result</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="d-flex align-items-center">
+
+</div>
+<!--<footer class="footer fixed-bottom">-->
+<!--  <div class="container">-->
+<!--    <p class="text-muted">Place sticky footer content here.</p>-->
+<!--  </div>-->
+<!--</footer>-->
+            <footer class="py-4 bg-dark fixed-bottom">
+                <div class="container text-center">
+                    <p class="text-light"><small>Copyright &copy;2019 Sample, All Rights Reserved.</small></p>
+                </div>
+            </footer>
+
+
+<script>
+
+            $('#button1').on('click', function(){
+                var selectedValue = $("#dropdown").val();
+                //$('#resultGET').text('通信中...');
+                // Ajax通信を開始
+                $.ajax({
+                    url: {% url 'exec' %},
+                    method: "GET",
+                    dataType: 'text',
+                    data: {
+                        param1: selectedValue
+                    },
+                    timeout: 5000,
+                })
+                .done(function(data) {
+                    var result = JSON.parse(data);
+                    var label = $('#result');
+                    var text = ''
+                    for (var item in result){
+                        text += result[item] + "<br>";
+                    }
+                    label.html(text);
+                })
+<!--                .fail(function() {-->
+<!--                    $('#resultGET').text('GET処理失敗.');-->
+<!--                });-->
+            })
+
+</script>
+</body>
+</html>
