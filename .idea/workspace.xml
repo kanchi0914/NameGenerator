@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa270d4e-6387-4e6e-8bd2-05a8471e0ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/data/csv/en_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/csv/fr_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/csv/it_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/csv/ru_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/models/model_en.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/models/model_fr.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/models/model_it.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/models/model_ru.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/weights/weights_en.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/weights/weights_fr.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/weights/weights_it.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/data/weights/weights_ru.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namegenerator/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/namegenerator/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="299">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -98,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1288" />
     <option name="y" value="44" />
     <option name="width" value="1296" />
@@ -383,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generator/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="299">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

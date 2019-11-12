@@ -20,7 +20,7 @@ class Names():
 
         self.country = country
 
-        base2 = settings.BASE_DIR + r"namegenerator\static\data" + "\\"
+        base2 = settings.BASE_DIR + r"\namegenerator\static\data" + "\\"
 
         self.model = load_model(base2 + r"models\model_" + country + ".h5")
         self.model.load_weights(base2 + r"weights\weights_" + country + ".h5")
