@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa270d4e-6387-4e6e-8bd2-05a8471e0ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/fr_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/it_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/ru_jp_names.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_fr.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_it.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_ru.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_fr.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_it.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_ru.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names_backup.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/jaNames.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/names.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/models/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_en.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model5.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model6.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights7.h5" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_en.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/myTest.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/templates/generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/views.py" afterDir="false" />
     </list>
@@ -42,11 +15,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/namegenerator/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/trainer.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/sequences_maker.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator/templates/generator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="207">
+              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generator/names.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,9 +119,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1078" />
-    <option name="height" value="1004" />
+    <option name="x" value="-1288" />
+    <option name="y" value="44" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -94,7 +131,41 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,22 +232,30 @@
       <option name="presentableId" value="Default" />
       <updated>1573471084957</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add some countries files">
+      <created>1573533321609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573533321609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1288" y="44" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15384616" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23211446" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.21668473" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.23068051" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.25836217" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.25836217" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -186,23 +265,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add some countries files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some countries files" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/namegenerator/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/namegenerator/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/names.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -241,39 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator/names.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/myTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/trainer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/it_jp_names.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -290,16 +324,6 @@
     <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/ru_jp_names.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/fr_jp_names.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -310,10 +334,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/namegenerator/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/names.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/myTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namegenerator/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/trainer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/sequences_maker.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/templates/generator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="207">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
         </state>
       </provider>
     </entry>

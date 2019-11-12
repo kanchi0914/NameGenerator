@@ -14,7 +14,7 @@ from django.conf import settings
 class Names():
     def __init__(self):
         self.country = ""
-        pass
+        self.load("en")
 
     def load(self, country):
 
