@@ -4,9 +4,9 @@ from . import dictchars_maker, model_setter, name_generator,\
 from . import trainer
 
 if __name__ == '__main__':
-    #trainer.train("models/model.h5", "weights/weights7.h5")
-    model = load_model("models/model.h5")
-    model.load_weights("weights/weights7.h5")
+    #trainer.train("models/model_en.h5", "weights/weights_en.h5")
+    model = load_model("models/model_en.h5")
+    model.load_weights("weights/weights_en.h5")
 
     datas = csv_loader.load_csv("csv/en_jp_names.csv")
     names = [data[1] for data in datas]

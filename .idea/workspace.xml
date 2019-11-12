@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa270d4e-6387-4e6e-8bd2-05a8471e0ee5" name="Default Changelist" comment="" />
+    <list default="true" id="fa270d4e-6387-4e6e-8bd2-05a8471e0ee5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/fr_jp_names.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/it_jp_names.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/csv/ru_jp_names.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_fr.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_it.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_ru.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_fr.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_it.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_ru.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names_backup.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/jaNames.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/names.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/csv/reliable_names4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/models/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/models/model_en.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model5.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/model6.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights7.h5" beforeDir="false" afterPath="$PROJECT_DIR$/generator/keras_name_generator/weights/weights_en.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/templates/generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,23 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator/myTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator/templates/generator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-              <folding>
-                <marker date="1573496112365" expanded="true" signature="1402:1575" ph="..." />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -43,7 +63,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>MIDDLEWARE</find>
+      <find>マッコーミック</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,60 +82,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="width" value="1078" />
+    <option name="height" value="1004" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="namegenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="namegenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/generator" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/generator/keras_name_generator/weights" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_workspace\namegenerator\generator\keras_name_generator\weights" />
+      <recent name="C:\python_workspace\namegenerator\generator\keras_name_generator\csv" />
+      <recent name="C:\python_workspace\namegenerator\generator\keras_name_generator\models" />
       <recent name="C:\python_workspace\namegenerator\generator" />
     </key>
   </component>
@@ -173,15 +168,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15384616" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.15926327" />
+      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.21668473" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.17226435" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.25836217" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -256,16 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -286,13 +271,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/trainer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/it_jp_names.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names_test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/en_jp_names.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/ru_jp_names.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/keras_name_generator/csv/fr_jp_names.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/templates/generator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <marker date="1573496112365" expanded="true" signature="1402:1575" ph="..." />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>

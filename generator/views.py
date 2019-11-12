@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 from .models import TestModel
+import keras
 from django.views.generic import View
 from django.http.response import HttpResponse
 from django.http.response import JsonResponse
@@ -12,15 +13,19 @@ from django.conf import settings
 
 class Names():
     def __init__(self):
-        self.load()
+        self.country = ""
+        pass
 
-    def load(self):
+    def load(self, country):
+
+        self.country = country
+
         base2 = settings.BASE_DIR + r"\generator\keras_name_generator" + "\\"
 
-        self.model = load_model(base2 + r"models\model.h5")
-        self.model.load_weights(base2 + r"weights\weights7.h5")
+        self.model = load_model(base2 + r"models\model_" + country + ".h5")
+        self.model.load_weights(base2 + r"weights\weights_" + country + ".h5")
+        self.datas = csv_loader.load_csv(base2 + r"csv" + "\\" + country + "_jp_names.csv")
 
-        self.datas = csv_loader.load_csv(base2 + r"csv\en_jp_names.csv")
         self.names = [data[1] for data in self.datas]
         self.names, self.chars = name_processor.process_names(self.names)
 
@@ -45,7 +50,7 @@ class Names():
 
 
 generator = Names()
-generator.get_names()
+# generator.get_names()
 
 # Create your views here.
 class IndexView(generic.ListView):
@@ -57,23 +62,13 @@ def generator_template(request):
 
 def exec_ajax(request):
     # names2 = Names()
-    names = generator.get_names()
+    country = request.GET.get("param1")
+    if generator.country != country:
+        keras.backend.clear_session()
+        generator.load(country=country)
 
+    names = generator.get_names()
     if request.method == 'GET':
-        param1 = request.GET.get("param1")
         return JsonResponse(names, safe=False)
 
-
-        #return HttpResponse({"value1":"testoooooooooooooo"})
-    #
-    # if request.method == 'POST':  # POSTの処理
-    #     data1 = request.POST.get("input_data")  # POSTで渡された値
-    #     return HttpResponse("SUCCESS")
-
-    # if request.POST.get('click', False):
-    #     return HttpResponse("SUCCESS")
-    # if request.method == "POST":
-    #     return HttpResponse("SUCCESS")
-    # else:
-    #     return HttpResponse("SUCCESS??????")
 

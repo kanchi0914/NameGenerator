@@ -21,13 +21,18 @@
 
 <div class="col text-center mt-4">
     <div class="container">
-
+        <div class="row">
+            <div class="col">
+                <h5>AIがそれっぽい名前を自動で生成します</h5>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <select id="dropdown">
-                    <option value="value01">アメリカ</option>
-                    <option value="value02">イタリア</option>
-                    <option value="value03">ロシア</option>
+                    <option value="en">アメリカ</option>
+                    <option value="it">イタリア</option>
+                    <option value="ru">ロシア</option>
+                    <option value="fr">フランス</option>
                 </select>
                 <a>人っぽい名前を</a>
                 <button id="button1" type="button" class="btn btn-dark">生成</button>
@@ -45,20 +50,15 @@
 <div class="d-flex align-items-center">
 
 </div>
-<!--<footer class="footer fixed-bottom">-->
-<!--  <div class="container">-->
-<!--    <p class="text-muted">Place sticky footer content here.</p>-->
-<!--  </div>-->
-<!--</footer>-->
-            <footer class="py-4 bg-dark fixed-bottom">
-                <div class="container text-center">
-                    <p class="text-light"><small>Copyright &copy;2019 Sample, All Rights Reserved.</small></p>
-                </div>
-            </footer>
 
-
+<footer class="py-4 bg-dark fixed-bottom">
+    <div class="container text-center">
+        <p class="text-light">
+            <small>Copyright &copy;2019 Sample, All Rights Reserved.</small>
+        </p>
+    </div>
+</footer>
 <script>
-
             $('#button1').on('click', function(){
                 var selectedValue = $("#dropdown").val();
                 //$('#resultGET').text('通信中...');
