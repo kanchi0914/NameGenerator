@@ -1,1 +1,1 @@
-web: gunicorn namegenerator:app --log-file -
+web: gunicorn namegenerator.wsgi
