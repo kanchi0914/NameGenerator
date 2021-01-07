@@ -22,7 +22,7 @@ idna==2.8
 Keras==2.1.5
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-lxml==4.4.1
+lxml==4.6.2
 Markdown==3.1.1
 numpy==1.17.3
 oauthlib==3.1.0
